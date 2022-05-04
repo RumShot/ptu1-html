@@ -9,7 +9,7 @@ header{
     padding: 0;
     background-image: url("../images/banner-bg.png");
     background-size: cover;
-    background-color: wheat;
+    /* background-color: wheat; */
     height: 1100px;
     width: 100%;
 }
@@ -66,8 +66,43 @@ header button{
 .services{
     padding-left: 20%;
     padding-right: 20%;
+    position: relative;
+    top: -150px;
 }
 
 .services img{
     width: 200px;
+}
+
+.blokas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blokas button{
+    margin: 15px 0 15px 0;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: 'Poppins-Bold', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    border: 0;
+}
+.blokai{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+.blokai :nth-child(1) button{
+    background-color:mediumblue;
+}
+.blokai :nth-child(2) button{
+    background-color:black;
+}
+.blokai :nth-child(3) button{
+    background-color:mediumblue;
 }
