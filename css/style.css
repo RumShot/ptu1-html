@@ -67,7 +67,7 @@ header button{
     padding-left: 20%;
     padding-right: 20%;
     position: relative;
-    top: -150px;
+    top: -120px;
 }
 
 .services img{
@@ -105,4 +105,42 @@ header button{
 }
 .blokai :nth-child(3) button{
     background-color:mediumblue;
+}
+.row h2{
+    margin-top: 150px;
+}
+.row p{
+    margin:50px 0 50px 0;
+}
+.row button{
+    border-radius: 50px;
+    padding: 10px 40px 10px 40px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+.services_img{
+    padding: 0;
+    background-image: url("../images/blog-bg.png");
+    /* background-color: wheat; */
+    height: 1250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.services_img h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+.services_img p{
+    color: white;
+    margin: 50px 0 100px 0;
+}
+.services_img button{
+    font-size: 30px;
+    color: white;
 }
